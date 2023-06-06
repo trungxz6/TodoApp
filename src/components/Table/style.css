@@ -1,0 +1,61 @@
+div.container-component-table{
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+div.header-table{
+    display: flex;
+}
+div.header-table div.header{
+    padding:10px;
+    border-right: 1px solid gray;
+    font-weight: 500;
+}
+div.name-todo{
+    width: 200px;
+}
+div.description-todo{
+    width: 250px;
+}
+div.status-todo,
+div.action-todo{
+    flex: 1
+}
+div.container-component-table div.row{
+    display: flex;
+    border-top: 1px solid gray;
+}
+div.container-component-table div.row div.cell{
+    padding: 10px;
+    border-right: 1px solid gray;
+}
+div.container-component-table div.row div.cell.name{
+    width: 200px;
+}
+div.container-component-table div.row div.cell.des{
+    width: 250px;
+}
+div.container-component-table div.row div.cell.status{
+    flex: 1;
+}
+div.container-component-table div.row div.cell.status div.data{
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    background-color: #29A94A;
+}
+div.container-component-table div.row div.cell.action{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+div.container-component-table div.row div.cell.action button{
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+div.container-component-table div.row div.cell.action button:first-child{
+    background-color:#1A74FC;
+}
+div.container-component-table div.row div.cell.action button:last-child{
+    background-color: #DB3446;
+}

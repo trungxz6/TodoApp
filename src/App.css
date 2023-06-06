@@ -1,0 +1,54 @@
+* {
+  color: var(--color);   
+}
+div.App{
+  width: 50vw;
+  height: 100vh;
+  margin: auto; 
+}
+div.content-main div.feat-top-form,
+div.feat-top-form form{
+  width: 100%;
+}
+div.feat-top-form form{
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+input.midl-input{
+  margin: 0px 15px;
+}
+input{
+  outline: none;
+  padding: 5px;
+}
+div.feat-top-form button{
+  background-color: #1A74FC;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+}
+div.middle-feat{
+  text-align: right;
+  margin: 15px 0px;
+}
+div.middle-feat button{
+  padding: 10px;
+  border-radius: 3px;
+}
+div.middle-feat button:first-child{
+  margin-right: 5px;
+  background-color: #DB3446;
+  color: white;
+  border: 1px solid #DB3446;
+}
+div.middle-feat button:last-child{
+  margin-right: 5px;
+  background-color: #29A94A;
+  color: white;
+  border: 1px solid #29A94A;
+}
+.search-input{
+  margin-bottom: 10px;
+}
