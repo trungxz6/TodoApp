@@ -131,7 +131,6 @@ function App() {
       }
     }}>
 
-
       <div className="App light">
         <h1>To do application</h1>
 
@@ -194,5 +193,6 @@ function App() {
     </langContext.Provider>
   )
 }
+
 
 export default App;
