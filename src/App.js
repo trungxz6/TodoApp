@@ -37,7 +37,7 @@ function App() {
   const [crrTodoEdit, setCrrTodoEdit] = useState('');
   const [isLoading, setIsLoading] = useState(true);
   const [lang, setLang] = useState('EN');
-  const [statusTodo, setStatusTodo] = useState(false)
+  // const [statusTodo, setStatusTodo] = useState(false)
   // const { location } = useLocation()
   // console.log(location)
 
@@ -171,7 +171,6 @@ function App() {
           </div>
           <div className="middle-feat">
             <button>Clear To do</button>
-
           </div>
           {isLoading ? <div>Loading...</div> :
             <Table data={isSearch ? searchArray : initTodo}
@@ -186,6 +185,7 @@ function App() {
               deleteTodo={handleDropTodo}
               statusTodo
             >
+
             </Table>
           }
         </div>

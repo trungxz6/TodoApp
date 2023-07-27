@@ -1,12 +1,14 @@
 export const LANG = {
-    VI:{
+    VI: {
         A_1: 'Tên công việc',
         A_2: 'Chi tiết',
         A_3: 'Trạng thái',
+        A_4: 'Hành Động',
     },
-    EN:{
-        A_1: 'name',
-        A_2: 'description',
-        A_3: 'status',
-    }   
+    EN: {
+        A_1: 'Name',
+        A_2: 'Description',
+        A_3: 'Status',
+        A_4: 'Action'
+    }
 }
